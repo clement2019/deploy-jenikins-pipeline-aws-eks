@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "jenkins-automation-server"
+    bucket = "bucket-eks-cluster-100"
+    key    = "project/terraform.tfstate"
     region = "eu-west-2"
-    key = "aws-eks/terraform.tfstate"
   }
 }
