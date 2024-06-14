@@ -6,7 +6,7 @@ jenkinsapp pipeline deployment to aws elastic kubernetes service
 # project steps and workflow
 
 ## 1. First using the local key pair and the security droup was confisgured,Vpc andd route table done
-## 2. The provisoning of the jenkins Server  was done using terraform IAC with all the dependencies, libraries aneeded.
+## 2. The provisoning of the jenkins Server  was done using terraform IAC with all the dependencies, libraries aneeded yes.
 ## 2. Acceessiblity to the jenkins server was done with the usual set up the server was accessed on port 880 already enabled in the secuirty group
 # Logging into the jenkins server was done with the username and password gieven to the admin during installation.
 ## 4. However to create the K8s Cluster, creating the deployments.yaml and Services.yaml file use the jekins-pipeline-to-eks in the jenkinsfile 
